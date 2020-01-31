@@ -36,6 +36,7 @@
     "@babel/preset-flow": "^7.7.4",
     "@babel/preset-react": "^7.7.4",
     "@babel/register": "^7.7.7",
+    "admonition": "file:packages/admonition",
     "ava": "^2.4.0",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",

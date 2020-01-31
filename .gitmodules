@@ -22,3 +22,6 @@
 [submodule "packages/embed"]
 	path = packages/embed
 	url = https://github.com/inkdropapp/inkdrop-embed.git
+[submodule "packages/admonition"]
+	path = packages/admonition
+	url = https://github.com/libeanim/inkdrop-admonition.git
