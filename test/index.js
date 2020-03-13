@@ -86,3 +86,14 @@ test.serial.cb('mermaid', t => {
   require('../lib/mermaid')
 })
 
+test.serial.cb('admonition', t => {
+  global.window.inkdrop.packages.setPackageMainModule = (name, p) => {
+    t.is(name, 'admonition')
+    t.is(p instanceof Object, true)
+    t.is(typeof p.activate, 'function')
+    t.is(typeof p.deactivate, 'function')
+    t.end()
+  }
+
+  require('../lib/admonition')
+})
